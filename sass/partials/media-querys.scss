@@ -1,0 +1,165 @@
+@media all and (max-width: 1024px) {
+    article {
+        margin: 0 0;
+    }
+
+    .article {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 5rem;
+        gap: 5rem;
+    }
+
+    .article__aside__img {
+        display: block;
+        margin: auto;
+    }
+
+    .article2 {
+        flex-direction: column;
+        margin-top: 15rem;
+        gap: 10rem;
+    }
+
+    .article2__section {
+        width: 100%;
+    }
+
+    .article2__aside {
+        width: 100%;
+    }
+
+    .article3 {
+        gap: 1rem;
+        margin: 1rem 1rem;
+    }
+
+    .article8 {
+        margin-top: 20rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+    .nav__ul {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .nav__ul .nav__ul__li {
+        display:block;
+        padding: 1rem 1rem;
+        border-top: 0.1rem solid;
+        width: 100%;
+        text-align: center;
+    }
+    .nav__logo {
+        font-size: 30px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+    
+    article {
+        margin: 0 0;
+    }
+
+    .article {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 5rem;
+        gap: 5rem;
+    }
+    .article__slogan {
+        text-align: center;
+    }
+
+    .article__aside__img {
+        display: block;
+        margin: auto;
+    }
+
+    h2{ 
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 23px;
+    }
+
+    .article2 {
+        flex-direction: column;
+        margin-top: 15rem;
+        gap: 10rem;
+    }
+
+    .article2__section {
+        width: 100%;
+    }
+
+    .article2__aside {
+        width: 100%;
+    }
+
+    .icons {
+        font-size: 70px;
+    }
+
+    .article3 {
+        flex-direction: column;
+        margin: 1rem 1rem;
+    }
+
+    .article4 {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .article4__div__h2 {
+        font-size: 33px;
+    }
+
+    .article8 {
+        flex-direction: column;
+        margin-top: 15rem;
+        gap: 5rem;
+    }
+
+    .article8__aside {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form__fieldset {
+        width: 30rem;
+    }
+
+    .footer {
+        height: 27rem;
+        vertical-align: top;
+    }
+
+    .footer__row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .social-media, .contact {
+        font-size: 2.5rem;
+    }
+
+    .footer__socialmedia {
+        justify-content: center;
+    }   
+    
+    .footer__email {
+        font-size: 16px;
+    }
+
+}

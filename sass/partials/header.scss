@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        &__logo {
+            display: inline;
+            text-decoration: none;
+            color:$black;
+            font-family:$LogoFont;
+            font-size: 48px;
+            font-weight:600;
+            }
+        }
+
+.nav__ul__li {
+    display: inline-block;
+    padding: 2rem 2rem;
+}
+
+.hover {
+    overflow: hidden;
+    background: linear-gradient(to right, #15BEC9, #15BEC9 50%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.hover:hover {
+    background-position: 0 100%;
+}

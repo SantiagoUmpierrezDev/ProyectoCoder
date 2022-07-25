@@ -1,0 +1,53 @@
+.footer {
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+        &__row {
+            display: flex;
+            justify-content: space-between;
+            margin: 4rem 4rem;
+        }
+}
+
+.footer__socialmedia {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer__email {
+    font-size: 20px;
+}
+
+.social-media, .contact {
+    font-size: 3rem;
+    color: white;
+}
+
+.footer__copyright {
+    text-align: center;
+        &__p {
+            font-size: 16px;
+        }
+}
+
+.hover__footer {
+    overflow: hidden;
+    background: linear-gradient(to right, #15BEC9, #15BEC9 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.hover__footer:hover {
+    background-position: 0 100%;
+}
