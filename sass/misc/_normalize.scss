@@ -23,20 +23,16 @@ article {
     margin: 15rem 10rem;
 }
 
-body{
-    background: linear-gradient( to bottom, rgb(255,255,255), rgb(146, 146, 146), rgb(0,0,0) );
-}
-
 h4{
     font-family:$font;
-    color:$white;
+    color:$black;
     font-size:40px;
     font-weight: 500;
 }
 
 p {
     font-family:$font;
-    color:$white;
+    color:$black;
     font-size: 36px;
     font-weight: 500;
 }
@@ -53,6 +49,12 @@ a {
     font-size: 24px;
 } 
 
+h1 {
+    font-family: $tittles;
+    color: $black;
+    font-size: 96px;
+}
+
 h2 {
     font-family:$font;
     color:$white;
@@ -64,4 +66,6 @@ h2 {
     text-align: center;
 }
 
-
+.gradient{
+    background: linear-gradient( to bottom, rgb(255,255,255), rgb(146, 146, 146), rgb(0,0,0) );
+}

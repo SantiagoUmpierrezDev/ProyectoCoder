@@ -27,7 +27,7 @@
 
 .social-media, .contact {
     font-size: 3rem;
-    color: white;
+    color: $black;
 }
 
 .footer__copyright {
@@ -39,7 +39,7 @@
 
 .hover__footer {
     overflow: hidden;
-    background: linear-gradient(to right, #15BEC9, #15BEC9 50%, white 50%);
+    background: linear-gradient(to right, #15BEC9, #15BEC9 50%, $black 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

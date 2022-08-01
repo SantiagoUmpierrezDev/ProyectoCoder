@@ -1,26 +1,89 @@
-.article8 {
+.section9 {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 20rem;
-        &__div {
-            background-color: $skyBLue;
-            border-radius: 1rem;
-            max-width: 70rem;
-            width: 100%;
-            &__section__h2 {
-                color: $black;
+    justify-content: space-around;
+        &__article {
+            text-align: center;
+            width: 70rem;
+            &__h1 {
+                font-size: 64px;
             }
         }
 }
-.form {
-    &__fieldset {
-        display: block;
-        text-align: center;
-        width: 35rem;
-        height: 40rem;
-        border-radius: 3rem;
-    }
+
+.section9__article__p {
+    font-weight: 300;
+    font-size: 30px;
 }
+
+.noborder {
+    border: none;
+    border-bottom: 1px solid $black;
+}
+
+.section9__2ndarticle {
+    display: flex;
+    justify-content: center;
+    width: 70rem;
+}
+
+.section9__2ndarticle_form__textarea {
+    font-family: $font;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+}
+
+.section9__2ndarticle_form__submit {
+    border: 1px solid $black;
+    border-radius: 50px;
+    width: 15rem;
+    height: 4rem;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(21,190,201,1) 100%); 
+
+}
+
+.div__button {
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+input[type="text"]
+{
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    font-size:20px;
+    font-family: $font;
+    font-weight: 300;
+}
+
+input[type="tel"]
+{
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    font-size:20px;
+    font-family: $font;
+    font-weight: 300;
+}
+
+input[type="email"]
+{
+    margin-bottom: 3rem;
+    font-size:20px;
+    font-family: $font;
+    font-weight: 300;
+}
+
+input[type=submit]{
+    font-family: $font;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/* .form {
+    
 .form__input {
     margin-top: 3rem;
     width: 18rem;
@@ -57,3 +120,4 @@ input[type=submit]{
     font-size: 10px;
     background: $white;
 }
+ */

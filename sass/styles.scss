@@ -1,12 +1,12 @@
 @import 'misc/variables';
 @import 'misc/normalize';
-@import 'partials/header.scss';
+@import 'partials/header';
 
 @import 'views/home.scss';
-@import 'views/about-us.scss';
-@import 'views/clients.scss';
-@import 'views/investors.scss';
+@import 'views/about.scss';
+@import 'views/work.scss';
+@import 'views/careers.scss';
 @import 'views/contact.scss';
 
-@import 'partials/footer.scss';
-@import 'partials/media-querys.scss';
+@import 'partials/footer';
+@import 'partials/media-querys';

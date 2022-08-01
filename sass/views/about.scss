@@ -1,0 +1,63 @@
+.aboutUs {
+    background-color: $AlternativeBlack;
+}
+
+.aboutUs__div {
+    height: 956px;
+    background-image: url("../../assets/img/otherImgs/laptop-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article3 {
+    margin-left: 0rem;
+    display: grid;
+    grid-template-areas: ". aside"
+    "section .";
+    grid-template-columns: 76rem 60rem;
+    grid-template-rows: 20rem 50rem ;  
+        &__section {
+            grid-area: section;
+            justify-self: center;
+            align-self: center;
+                &__p {
+                    font-size: 28px;
+                    text-align: center;
+                    color: $black;
+                }
+        }
+} 
+
+.article3__aside {
+   grid-area: aside;
+   justify-self: center;
+   align-self: end;
+    &__h2 {
+        color: $skyBLue;
+        font-size: 92px;
+            &__span {
+                color: $black;
+        }
+    } 
+}
+
+.article4 {
+    margin-top: 27rem;
+    text-align: center;   
+        &__section {
+            width: 70rem;
+            margin-right: auto;
+            margin-left: auto;
+                &__h2 {
+                    font-family: $dotFont;
+                    font-size: 70px;
+                    margin-bottom: 5rem;
+                } 
+        } 
+}  
+
+.article4__section__p {
+    color: $white;
+    font-size: 30px;
+    font-weight: 400;
+}

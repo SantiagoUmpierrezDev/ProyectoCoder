@@ -3,7 +3,8 @@
     gap: 40rem;
         &__slogan {
             align-self: center;
-                &__h2 {
+            font-size: 40px;
+                &__h1 {
                     display: flex;
                     justify-content: center;
                 }
@@ -11,8 +12,6 @@
 }
 
 .article__aside {
-    display: grid;
-    grid-area: article__aside;
         &__img {
             width: 100%;
             max-width: 463px;
@@ -27,44 +26,50 @@
 
 .article2 {
     display: flex;
-    margin-top: 45rem;
+    justify-content: space-between;
+    margin-top: 30rem;
     margin-bottom: 20rem;
         &__section {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
+           max-width: 70rem;
+           width: 100%;
                 &__h4 {
-                    display: flex;
-                    justify-content: center;
+                    text-align: center;
+                    font-family: $tittles;
+                    font-size: 60px;
+                    margin-bottom: 3rem;
                 }
         }
 }
 
 .article2__section__p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.article2__section__2p {
+    font-size: 25px;
+    font-weight:300;
     text-align: center;
 }
 
 .article2__aside {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-top: 20rem;
+    max-width: 75rem;
+    width: 100%;
         &__h4 {
-            display: flex;
-            justify-content: center;
+            text-align: center;
+            font-family: $tittles;
+            font-size: 60px;
         }
 }
 .article2__aside__h4--centered {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-family: $tittles;
+    font-size: 60px;
 }
-.article2__aside__arrowImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
 .article2__aside__div {
     margin-top: 5rem;
     display: flex;
