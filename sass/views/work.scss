@@ -1,11 +1,5 @@
-/* article {
-    margin: 0rem;
-} */
-
 .section5 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flex(null, center, center);
         &__article {
             width: 80rem;
             text-align: center;
@@ -46,7 +40,7 @@
         }
 }
 
-.section6__2ndp {
+.section6__articles__2ndp {
     margin-top: 3rem;
     font-weight: 400;
     font-size: 30px;

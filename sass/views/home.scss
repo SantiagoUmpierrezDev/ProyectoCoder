@@ -35,21 +35,21 @@
                 &__h4 {
                     text-align: center;
                     font-family: $tittles;
-                    font-size: 60px;
+                    font-size: map-get($fonts, text-large );
                     margin-bottom: 3rem;
                 }
         }
 }
 
 .article2__section__p {
-    font-size: 30px;
+    font-size: map-get($fonts, text-medium);
     font-weight: 400;
     margin-bottom: 3rem;
     text-align: center;
 }
 
 .article2__section__2p {
-    font-size: 25px;
+    font-size: map-get($fonts, text-small );
     font-weight:300;
     text-align: center;
 }
@@ -61,20 +61,18 @@
         &__h4 {
             text-align: center;
             font-family: $tittles;
-            font-size: 60px;
+            font-size: map-get($fonts, text-large);
         }
 }
 .article2__aside__h4--centered {
     text-align: center;
     font-family: $tittles;
-    font-size: 60px;
+    font-size: map-get($fonts, text-large);
 }
 
 .article2__aside__div {
     margin-top: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex (null,center, center);
     gap: 3rem;
 }
 

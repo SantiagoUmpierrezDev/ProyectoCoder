@@ -61,3 +61,35 @@
     font-size: 30px;
     font-weight: 400;
 }
+
+.hover__footer--white {
+        overflow: hidden;
+        background: linear-gradient(to right, #15BEC9, #15BEC9 50%, $white 50%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 200% 100%;
+        background-position: 100%;
+        transition: background-position 275ms ease;
+}
+
+.hover__footer--white:hover {
+    background-position: 0 100%;
+}
+
+.social-media--white, .contact--white {
+    font-size: 3rem;
+}
+
+.footer__email--white {
+    @extend .footer__email;
+    color: $white;
+}
+
+.footer__copyright--white {
+    text-align: center;
+        &__p {
+            color: $white;
+            font-size: 16px;
+        }
+}

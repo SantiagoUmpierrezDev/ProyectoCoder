@@ -3,8 +3,10 @@
     justify-content: space-around;
         &__article {
             text-align: center;
-            width: 70rem;
+            width: 100%;
+            max-width: 70rem;
             &__h1 {
+                margin-top: 0;
                 font-size: 64px;
             }
         }
@@ -21,38 +23,60 @@
 }
 
 .section9__2ndarticle {
-    display: flex;
-    justify-content: center;
-    width: 70rem;
+    max-width: 70rem;
+    width: 100%;
 }
 
-.section9__2ndarticle_form__textarea {
+.form__divs__1strow {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.form__divs__2ndrow {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.section9__2ndarticle__form__textarea {
     font-family: $font;
     font-weight: 300;
     font-size: 20px;
+    resize: none;
+    outline: none;
     width: 100%;
 }
 
-.section9__2ndarticle_form__submit {
-    border: 1px solid $black;
-    border-radius: 50px;
-    width: 15rem;
-    height: 4rem;
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(21,190,201,1) 100%); 
-
-}
-
-.div__button {
+.form__div {
     margin-top: 3rem;
     width: 100%;
     text-align: center;
+        &__submit {
+            border: 1px solid $black;
+            border-radius: 50px;
+            width: 15rem;
+            height: 4rem;
+            overflow: hidden;
+            background: linear-gradient(to right, #15BEC9, #15BEC9 50%, $white 50%);
+            background-clip: content-box;
+            background-size: 200% 100%;
+            background-position: 100%;
+            transition: background-position 275ms ease;
+        }
 }
 
+.form__div__submit:hover {
+    background-position: 0 100%;
+}
+
+input:focus {
+    outline: none;
+}
 
 input[type="text"]
 {
     margin-bottom: 3rem;
-    margin-right: 2rem;
     font-size:20px;
     font-family: $font;
     font-weight: 300;
@@ -61,7 +85,6 @@ input[type="text"]
 input[type="tel"]
 {
     margin-bottom: 3rem;
-    margin-right: 2rem;
     font-size:20px;
     font-family: $font;
     font-weight: 300;
@@ -79,45 +102,5 @@ input[type=submit]{
     font-family: $font;
     font-weight: 300;
     font-size: 20px;
+    cursor: pointer;
 }
-
-
-/* .form {
-    
-.form__input {
-    margin-top: 3rem;
-    width: 18rem;
-    height: 4rem;
-    border-radius: 3rem;
-    background: transparent;
-    text-align: center;
-}
-.form__textarea {
-    margin-top: 3rem;
-    width: 18rem;
-    height: 8rem;
-    border-radius: 3rem;
-    background: transparent;
-    text-align: center;
-}
-.form__submit {
-    margin-top: 3rem;
-    width: 10rem;
-    height: 2.5rem;
-    border-radius: 3rem;
-    }
-
-::placeholder {
-    color: $white;
-    font-family: $font;
-    font-size: 14px;
-    opacity: 1;
-}
-
-input[type=submit]{
-    font-family: $font;
-    color: $black;
-    font-size: 10px;
-    background: $white;
-}
- */

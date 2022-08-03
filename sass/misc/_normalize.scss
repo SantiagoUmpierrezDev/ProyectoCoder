@@ -69,3 +69,21 @@ h2 {
 .gradient{
     background: linear-gradient( to bottom, rgb(255,255,255), rgb(146, 146, 146), rgb(0,0,0) );
 }
+
+.white {
+    color:$white;
+}
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+
+$fonts: (
+  text-small: 25px,
+  text-medium: 30px,
+  text-large: 60px,
+  text-extraLarge: 96px
+);
