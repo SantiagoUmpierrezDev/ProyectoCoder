@@ -1,3 +1,12 @@
+@media all and (max-width: 1700px) {
+    .section6 {
+        grid-template-columns: 1fr;
+        grid-gap: 5rem;
+        justify-items: center;
+        margin-bottom: 5rem;
+    }
+}
+
 @media all and (max-width: 1024px) {
     article {
         margin: 0 0;
@@ -28,6 +37,22 @@
 
     .article2__aside {
         width: 100%;
+    }
+
+    .article3 {
+        flex-direction: column;
+        margin: 5rem 1rem;
+        text-align: center; 
+            &__aside {
+                align-self: center;
+            }
+    }
+
+    .article4 {
+        margin: 0rem;
+        padding: 0rem;
+        flex-direction: column;
+        align-items: center;
     }
 
     .section5 {
@@ -158,18 +183,17 @@
 
     .article3 {
         flex-direction: column;
-        margin: 1rem 1rem;
+        margin: 5rem 1rem;
+        text-align: center;
     }
 
     .article4 {
         margin: 0rem;
         padding: 0rem;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .article4__div__h2 {
-        font-size: 33px;
-    }
-    
     .section5__article {
         width: 100%;
         &__h1 {
@@ -251,20 +275,22 @@
     }
 
     .form__divs__1strow {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: auto;
+        margin-right: auto;
         flex-direction: column;
+        max-width: 60rem;
     }
     
     .form__divs__2ndrow {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        flex-direction: column;   
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;  
+        max-width: 60rem; 
     }
 
     .section9__2ndarticle__form__textarea {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     input[type="text"]

@@ -1,7 +1,3 @@
-.aboutUs {
-    background-color: $AlternativeBlack;
-}
-
 .aboutUs__div {
     height: 956px;
     background-image: url("../../assets/img/otherImgs/laptop-image.jpg");
@@ -10,56 +6,79 @@
 }
 
 .article3 {
-    margin-left: 0rem;
-    display: grid;
-    grid-template-areas: ". aside"
-    "section .";
-    grid-template-columns: 76rem 60rem;
-    grid-template-rows: 20rem 50rem ;  
-        &__section {
-            grid-area: section;
-            justify-self: center;
-            align-self: center;
+    display: flex;
+    justify-content: space-around;
+        &__aside {
+            width: 100%;
+            max-width: 70rem;
+            align-self: end;
                 &__p {
-                    font-size: 28px;
+                    font-weight: 400;
                     text-align: center;
-                    color: $black;
                 }
         }
 } 
 
-.article3__aside {
-   grid-area: aside;
-   justify-self: center;
-   align-self: end;
-    &__h2 {
-        color: $skyBLue;
-        font-size: 92px;
-            &__span {
-                color: $black;
-        }
-    } 
-}
-
 .article4 {
-    margin-top: 27rem;
-    text-align: center;   
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: #030303;
+    display: flex;
+    justify-content: space-around;
         &__section {
-            width: 70rem;
-            margin-right: auto;
-            margin-left: auto;
-                &__h2 {
+            margin-top: 15rem;
+            margin-bottom: 15rem;
+            text-align: center;
+            max-width: 50rem;
+            width: 100%;
+                &__h4 {
+                    color: $white;
                     font-family: $dotFont;
-                    font-size: 70px;
-                    margin-bottom: 5rem;
-                } 
-        } 
+                    font-size: 50px;
+                    margin-bottom: 2rem;
+                }
+        }
 }  
 
 .article4__section__p {
     color: $white;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
+}
+
+.article4__aside {
+    @extend .article4__section;
+        &__h4 {
+            @extend .article4__section__h4;
+        }
+}
+
+.article4__aside__p {
+    @extend .article4__section__p;
+}
+
+.article5 {
+    margin: 0 0;
+    background-color: #030303;
+    display: flex;
+    justify-content: center;
+        &__section {
+            @extend .article4__section;
+            max-width: 70rem;
+                &__h4 {
+                    @extend .article4__section__h4;
+                }
+        }
+}
+
+.article5__section__p {
+    @extend .article4__section__p;
+}
+
+.footer__aboutUs {
+    @extend .footer;
+    background-color: #030303;
 }
 
 .hover__footer--white {

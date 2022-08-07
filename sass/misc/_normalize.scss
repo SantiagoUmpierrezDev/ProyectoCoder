@@ -11,6 +11,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    min-width: 350px;
+}
+
 nav ul li {
     display: inline-block;
 }

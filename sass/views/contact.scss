@@ -31,12 +31,18 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+        &__1stinput {
+            margin-right: 1rem;
+        }
 }
 
 .form__divs__2ndrow {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+        &__1stinput {
+            @extend .form__divs__1strow__1stinput;
+        }
 }
 
 .section9__2ndarticle__form__textarea {
