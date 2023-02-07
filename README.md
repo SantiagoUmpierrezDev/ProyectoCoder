@@ -10,6 +10,8 @@ Ntech is a software company specialized in making taylor made web pages.
 ## Dependencies
 - Sass
 
+## Demo
+Take a look at the web <a href = "https://ntech.vercel.app/"> here </a>
 
 ## Contact
 
