@@ -1,13 +1,15 @@
 # Ntech
 
-
 Project conducted for the Web Development course at CoderHouse, only using HTML and CSS (Required by the course).
 
 ## About
 
 Ntech is a software company specialized in making taylor made web pages.
 
-## Dependencies
+## Built with
+- HTML
+- CSS
+- Figma
 - Sass
 
 ## Demo
