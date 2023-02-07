@@ -1,4 +1,4 @@
-# NTECH
+# Ntech
 
 
 Project conducted for the Web Development course at CoderHouse, only using HTML and CSS (Required by the course).
